@@ -1,0 +1,21 @@
+server:
+  address: 0.0.0.0
+  servlet:
+    context-path: /
+  port: 8080
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/saleshistory
+    username: saleshistory
+    password: o9p0[-]=
