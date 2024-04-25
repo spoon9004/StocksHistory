@@ -11,7 +11,7 @@ import java.util.Set;
 @Data
 @RequiredArgsConstructor
 @Entity
-@Table(name = "user")
+@Table(name = "accounts")
 public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

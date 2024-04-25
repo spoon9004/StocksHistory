@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-create-db.sql
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-create-table-user.sql
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-create-table-ticker.sql
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-create-table-roles.sql
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-insert-users.sql
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-insert-roles.sql
+  - include:
+      file: src/main/resources/db/changelog/db.changelog-insert-tickers.sql
+
+
